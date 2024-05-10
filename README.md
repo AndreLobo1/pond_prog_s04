@@ -1,10 +1,10 @@
-![image](https://github.com/AndreLobo1/pond_prog_s04/assets/159137322/9ee653b7-8f35-4433-ab35-4f0921e6ca0c)Este repositório é dedicado à atividade avaliativa de Modelagem de Banco de Dados, correspondente à quarta semana da segunda sprint do segundo módulo  do [Inteli - Instituto de Tecnologia e Liderança](https://www.inteli.edu.br/). O foco desta atividade é programação. Neste contexto, aceitamos o desafio de desenvolver e apresentar uma proposta de modelo de banco de dados para o nosso projeto utilizando o SQL Designer. A modelagem de banco de dados desempenha um papel crucial no desenvolvimento de sistemas, pois define a estrutura e as relações entre os dados, contribuindo para a eficiência e organização do sistema.
+Este repositório é dedicado à atividade avaliativa de Modelagem de Banco de Dados, correspondente à quarta semana da segunda sprint do segundo módulo  do [Inteli - Instituto de Tecnologia e Liderança](https://www.inteli.edu.br/). O foco desta atividade é programação. Neste contexto, aceitamos o desafio de desenvolver e apresentar uma proposta de modelo de banco de dados para o nosso projeto utilizando o SQL Designer. A modelagem de banco de dados desempenha um papel crucial no desenvolvimento de sistemas, pois define a estrutura e as relações entre os dados, contribuindo para a eficiência e organização do sistema.
 
 # Modelo Relacional:
 
 Nesta seção, apresentamos o modelo relacional da nossa aplicação, construído com base na plataforma [SQL toad](https://sql.toad.cz/). Este modelo é uma representação estruturada das entidades e de suas relações, fundamentais para o funcionamento e organização do sistema. As tabelas aqui descritas formam a espinha dorsal do nosso aplicativo, delineando como os dados são armazenados, relacionados e acessados. 
 
-(/assets/BancoDeDados.png)
+<img alt="Imagem do banco de dados" src="assets/BancoDeDados.png">
 
 * **Tabela Usuário:**
     - A tabela Usuário armazena informações sobre os usuários do sistema, incluindo nome (VARCHAR), país (VARCHAR), biografia (TEXT), foto (BLOB), entre outros. Todos os campos são NOT NULL, exceto a foto.
