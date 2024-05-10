@@ -64,7 +64,7 @@ Nesta seção, apresentamos a estrutura do repositório e fornecer uma descriç�
     └── BancoDeDados.png     # Imagem do banco de dados
 ```
 
-## Detalhes dos Arquivos
+Detalhes dos Arquivos:
 
 **README.md**: Este arquivo contém a documentação do projeto, incluindo uma descrição detalhada do modelo de banco de dados e suas tabelas.
 **BancoDeDados**: Esta pasta contém os arquivos do banco de dados.
@@ -75,7 +75,7 @@ Nesta seção, apresentamos a estrutura do repositório e fornecer uma descriç�
 
 Esperamos que esta visão geral da estrutura do repositório ajude você a navegar e entender melhor o projeto. Cada arquivo e pasta tem um propósito específico e contribui para a organização geral e funcionalidade do sistema. Continuaremos a manter e atualizar este repositório à medida que o projeto avança.
 
-# Regras de Negócio e Solução do Problema:
+# Regras de Negócio e Solução do Problema
 
 Este modelo de banco de dados foi meticulosamente projetado como uma solução potencial para o desafio apresentado pelo nosso parceiro: reconhecer e compreender as nuances culturais dos colegas no jogo CESIM. Para abordar essa questão complexa, nosso banco de dados foi estruturado para suportar funcionalidades essenciais, como relatórios, tarefas, tags, perfis e formulários.
 
