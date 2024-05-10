@@ -17,6 +17,18 @@ Nesta seção, apresentamos o **modelo relacional** da nossa aplicação, constr
 <sup>Fonte: Material produzido pelos autores (2024)</sup>
 </div>
 
+A imagem mostra um esquema de banco de dados criado no [SQL toad](https://sql.toad.cz/), que é uma representação gráfica da estrutura de um banco de dados relacional. Inclui várias tabelas como 'usuários', 'formulários', 'notificações', 'tipos de personalidade', 'relatórios' e 'tags'. Cada tabela é representada por um retângulo contendo uma lista de seus atributos (como id, nome, país, bio para a tabela 'usuários'). As linhas que conectam as tabelas representam relações entre elas; por exemplo, linhas azuis podem indicar restrições de chave estrangeira onde o atributo de uma tabela faz referência à chave primária de outra tabela. Este esquema é relevante, pois organiza visualmente e demonstra como os dados estão interconectados dentro deste banco de dados específico, o que pode ser crucial para entender o fluxo de dados e as relações para qualquer pessoa que precise trabalhar ou gerenciar este banco de dados.
+
+**Descrição Visual do Esquema:**
+
+- **Tabelas e Atributos:** Cada tabela é claramente definida com seus atributos listados, facilitando a identificação das informações que cada uma armazena.
+- **Relacionamentos:** As linhas azuis representam as relações de chave estrangeira, essenciais para manter a integridade referencial entre as tabelas.
+- **Organização:** O layout organizado do esquema ajuda a visualizar como as tabelas se relacionam umas com as outras e como os dados fluem no sistema.
+
+Este esquema é uma ferramenta valiosa para desenvolvedores e analistas de banco de dados, pois fornece uma visão clara da estrutura do banco de dados e de como as tabelas estão interligadas. É um componente essencial para a documentação e manutenção do banco de dados.
+
+Agora, vamos explorar cada tabela em detalhes:
+
 * **Tabela Usuário:**
     - A tabela Usuário armazena informações sobre os usuários do sistema, incluindo nome (VARCHAR), país (VARCHAR), biografia (TEXT), foto (BLOB), entre outros. Todos os campos são NOT NULL, exceto a foto.
     - A chave estrangeira `personality` (INT, NOT NULL) referencia a tabela `personality_types`, permitindo a associação de tipos de personalidade a cada usuário.
