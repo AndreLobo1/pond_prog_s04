@@ -1,10 +1,21 @@
-Este repositório é dedicado à atividade avaliativa de Modelagem de Banco de Dados, correspondente à quarta semana da segunda sprint do segundo módulo  do [Inteli - Instituto de Tecnologia e Liderança](https://www.inteli.edu.br/). O foco desta atividade é programação. Neste contexto, aceitamos o desafio de desenvolver e apresentar uma proposta de modelo de banco de dados para o nosso projeto utilizando o SQL Designer. A modelagem de banco de dados desempenha um papel crucial no desenvolvimento de sistemas, pois define a estrutura e as relações entre os dados, contribuindo para a eficiência e organização do sistema.
+# Ponderada de Programação - Quarta Semana - Segundo Módulo 
 
-# Modelo Relacional:
+Este repositório é dedicado à atividade avaliativa de Modelagem de Banco de Dados, correspondente à quarta semana da segunda sprint do segundo módulo  do [Inteli - Instituto de Tecnologia e Liderança](https://www.inteli.edu.br/). O foco desta atividade é programação. Neste contexto, aceitamos o desafio de desenvolver e apresentar uma proposta de modelo de banco de dados para o nosso projeto utilizando o [SQL Designer](https://github.com/ondras/wwwsqldesigner).
 
-Nesta seção, apresentamos o modelo relacional da nossa aplicação, construído com base na plataforma [SQL toad](https://sql.toad.cz/). Este modelo é uma representação estruturada das entidades e de suas relações, fundamentais para o funcionamento e organização do sistema. As tabelas aqui descritas formam a espinha dorsal do nosso aplicativo, delineando como os dados são armazenados, relacionados e acessados. 
+# Modelo Relacional
 
+Nesta seção, apresentamos o **modelo relacional** da nossa aplicação, construído com base na plataforma [SQL toad](https://sql.toad.cz/). Este modelo é uma representação estruturada das entidades e de suas relações, fundamentais para o funcionamento e organização do sistema. As tabelas aqui descritas formam a espinha dorsal da nossa aplicação, delineando como os dados são armazenados, relacionados e acessados. 
+
+
+<div align="center">
+<sub>Figura 01 - Modelo Relacional</sub>
+<br>
+<br>
 <img alt="Imagem do banco de dados" src="assets/BancoDeDados.png">
+<br>
+<br>
+<sup>Fonte: Material produzido pelos autores (2024)</sup>
+</div>
 
 * **Tabela Usuário:**
     - A tabela Usuário armazena informações sobre os usuários do sistema, incluindo nome (VARCHAR), país (VARCHAR), biografia (TEXT), foto (BLOB), entre outros. Todos os campos são NOT NULL, exceto a foto.
@@ -45,15 +56,15 @@ Nesta seção, apresentamos a estrutura do repositório e fornecer uma descriç�
 
 ```bash
 .
-├── README.md
-├── BancoDeDados
-│   ├── BancoDeDados.sql
-│   └── BancoDeDados.xml
-└── assets
-    └── BancoDeDados.png
+├── README.md                # Documentação
+├── BancoDeDados             # Pasta contendo os arquivos do banco de dados
+│   ├── BancoDeDados.sql     # Banco de dados em SQL
+│   └── BancoDeDados.xml     # Banco de dados em XML
+└── assets                   # Pastas contendo a imagem do banco de dados 
+    └── BancoDeDados.png     # Imagem do banco de dados
 ```
 
-## Detalhes dos Arquivos:
+## Detalhes dos Arquivos
 
 **README.md**: Este arquivo contém a documentação do projeto, incluindo uma descrição detalhada do modelo de banco de dados e suas tabelas.
 **BancoDeDados**: Esta pasta contém os arquivos do banco de dados.
