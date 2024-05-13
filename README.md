@@ -85,7 +85,7 @@ Detalhes dos Arquivos:
 **assets**: Esta pasta contém recursos visuais relacionados ao projeto.
 **BancoDeDados.png**: Esta imagem é uma representação visual do modelo de banco de dados. Ela pode ser útil para entender rapidamente a estrutura e as relações do banco de dados.
 
-Esperamos que esta visão geral da estrutura do repositório ajude você a navegar e entender melhor o projeto. Cada arquivo e pasta tem um propósito específico e contribui para a organização geral e funcionalidade do sistema. Continuaremos a manter e atualizar este repositório à medida que o projeto avança.
+Esperamos que esta visão geral da estrutura do repositório ajude você a navegar e entender melhor o projeto. Cada arquivo e pasta tem um propósito específico e contribui para a organização geral e funcionalidade do sistema.
 
 # Regras de Negócio e Solução do Problema
 
