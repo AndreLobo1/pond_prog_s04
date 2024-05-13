@@ -79,10 +79,15 @@ Nesta seção, apresentamos a estrutura do repositório e fornecer uma descriç�
 Detalhes dos Arquivos:
 
 **README.md**: Este arquivo contém a documentação do projeto, incluindo uma descrição detalhada do modelo de banco de dados e suas tabelas.
+
 **BancoDeDados**: Esta pasta contém os arquivos do banco de dados.
+
 **BancoDeDados.sql**: Este arquivo SQL contém os comandos para criar o banco de dados e suas tabelas.
+
 **BancoDeDados.xml**: Este arquivo XML representa a estrutura do banco de dados em um formato que pode ser facilmente importado para outras ferramentas de modelagem de banco de dados.
+
 **assets**: Esta pasta contém recursos visuais relacionados ao projeto.
+
 **BancoDeDados.png**: Esta imagem é uma representação visual do modelo de banco de dados. Ela pode ser útil para entender rapidamente a estrutura e as relações do banco de dados.
 
 Esperamos que esta visão geral da estrutura do repositório ajude você a navegar e entender melhor o projeto. Cada arquivo e pasta tem um propósito específico e contribui para a organização geral e funcionalidade do sistema.
